@@ -1,0 +1,27 @@
+
+
+nav {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .boton1 {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .boton1:hover {
+    background-color: #27ae60;
+  }
+  
+  
+  

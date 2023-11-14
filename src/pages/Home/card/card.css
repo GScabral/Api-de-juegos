@@ -1,0 +1,48 @@
+
+.LinkNoUnderline {
+  text-decoration: none; 
+}
+.boton-card {
+  width: 250px; /* Tamaño fijo para el contenedor de la tarjeta */
+  border: none;
+  background: rgb(173, 97, 224);
+  box-shadow: 0 4px 8px rgba(209, 34, 34, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Cambiar la fuente a Arial o cualquier otra fuente */
+  font-size: 16px; 
+  margin: 10px;
+}
+
+.boton-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-imagen {
+  width: 100%; /* La imagen se ajustará al ancho del contenedor */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover; /* La imagen se ajustará dentro del contenedor */
+}
+
+.genres {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-h2 {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.card-name{
+  color:  black;
+}

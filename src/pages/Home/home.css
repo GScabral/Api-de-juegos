@@ -1,0 +1,108 @@
+/* home.style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to bottom, rgba(42, 10, 226, 0.973) 50%, rgb(239, 4, 247) 100%);
+  background-size: cover;
+  }
+  
+  
+  .home-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Espacio entre botones */
+  }
+  .barra {
+    display: flex; /* Utiliza flexbox para alinear los botones en línea */
+    align-items: center; /* Alinea verticalmente los botones */
+  }
+  
+  /* Estilos para los botones en la barra */
+  .barra button {
+    margin-right: 10px; /* Agrega un espacio entre los botones */
+  }
+  /* Estilos para el botón "Restablecer" */
+  button#reset-button {
+    background-color: #ff5722; /* Color de fondo personalizado */
+  }
+  
+  /* Estilos para los botones de paginación */
+  .button-paginacion {
+    background-color: #4caf50; /* Color de fondo personalizado */
+  }
+  
+  /* Estilos para los botones al hacer hover */
+  button:hover {
+    background-color: #0056b3; /* Cambia el color al hacer hover */
+  }
+  
+  /* Estilos para el botón "Restablecer" al hacer hover */
+  button#reset-button:hover {
+    background-color: #e64a19; /* Cambia el color al hacer hover */
+  }
+  
+  /* Estilos para los botones de paginación al hacer hover */
+  .button-paginacion:hover {
+    background-color: #357a38; /* Cambia el color al hacer hover */
+  }
+  .paginado{
+    color: aliceblue;
+  }
+  
+  
+  .botones {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 20px; /* Agrega espacio en la parte superior si es necesario */
+  }
+  
+  .botones button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; /* Espacio horizontal entre los botones */
+    /* Puedes ajustar el espacio y otros estilos según tus preferencias */
+  }
+  
+  /* Estilos para los botones al hacer hover */
+  .botones button:hover {
+    background-color: #0056b3; /* Cambia el color al hacer hover */
+  }
+
+  .miSelect {
+    /* Estilos generales */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    /* Otros estilos que desees */
+  }
+  
+  /* Estilos para cuando el select está desplegado */
+  .miSelect:focus {
+    outline: none; /* Elimina el contorno al hacer clic */
+    border-color: blue; /* Cambia el color del borde cuando se selecciona */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Agrega una sombra */
+  }
+  .nombre-home{
+    color: black;
+    font-weight: bold;
+  }

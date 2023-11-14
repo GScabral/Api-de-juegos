@@ -1,0 +1,50 @@
+/* Formulario */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0f1f66;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Etiquetas del formulario */
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Entradas de texto */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Mensajes de error */
+  .error-message {
+    color: red; /* Color del mensaje de error */
+    font-size: 14px; /* Tamaño de fuente del mensaje de error */
+    margin-top: 5px; /* Espacio en la parte superior para separarlos de los campos de entrada */
+  }
+  /* Botón de envío */
+   /* Botón de envío */
+   .valid-button {
+    background-color: green; /* Cambia el color a verde cuando el formulario es válido */
+    color: white; /* Cambia el color del texto a blanco */
+  }
+  
+  /* Clase para el botón inválido */
+  .invalid-button {
+    background-color: red; /* Cambia el color a rojo cuando el formulario no es válido */
+    color: white; /* Cambia el color del texto a blanco */
+  }
+  .home-form{ background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;}

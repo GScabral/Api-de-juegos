@@ -1,0 +1,50 @@
+.detail-background {
+    background-color: #0a3752;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .detail-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .detail-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .detail-description {
+    margin-top: 10px;
+  }
+  
+  .detail-details {
+    margin-top: 10px;
+  }
+  
+  .detail-rating {
+    color: #ff8c00; /* Color anaranjado para resaltar el rating */
+  }
+  
+  .volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #0077cc; /* Fondo azul para el botón */
+    color: #fff; /* Texto en blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición de color de fondo al pasar el mouse */
+  }
+  
+  .volver:hover {
+    background-color: #0055aa; /* Color de fondo más oscuro al pasar el mouse */
+    text-decoration: none;
+  }
